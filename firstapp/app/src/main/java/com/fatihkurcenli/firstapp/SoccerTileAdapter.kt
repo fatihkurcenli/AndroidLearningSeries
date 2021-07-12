@@ -5,6 +5,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
 
@@ -22,6 +24,8 @@ class SoccerTileAdapter(
         private val titleTextView: TextView = itemView.findViewById(R.id.titleTextView)
         private val descriptionTextView: TextView = itemView.findViewById(R.id.descriptionTextView)
         private val button: MaterialButton = itemView.findViewById(R.id.button)
+        private val favoriteImageView: AppCompatImageView =
+            itemView.findViewById(R.id.favoriteImageView)
 
         fun onBind(soccerTile: SoccerTile, soccerTileInterface: SoccerTileInterface) {
             headerImageView.setImageResource(soccerTile.headerImageResId)
@@ -29,8 +33,15 @@ class SoccerTileAdapter(
             descriptionTextView.text = soccerTile.description
 
             button.setOnClickListener {
-                Toast.makeText(it.context, "$adapterPosition clicked", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(it.context, "$adapterPosition clicked", Toast.LENGTH_SHORT).show()
                 soccerTileInterface.onLearnMoreButtonClicked(adapterPosition)
+            }
+
+            val icon =
+                if (soccerTile.isFavorite) R.drawable.ic_favorite_24dp else R.drawable.ic_favorite_outline_24dp
+            favoriteImageView.setImageResource(icon)
+            favoriteImageView.setOnClickListener {
+                soccerTileInterface.onFavoriteClicked(adapterPosition)
             }
 
         }

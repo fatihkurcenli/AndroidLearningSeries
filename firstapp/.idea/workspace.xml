@@ -5,6 +5,14 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="soccerTile" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,32 +33,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8bde7cb-38d8-4c1e-a836-692a9acb31c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileDetailActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/besiktas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fenerbahce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/galatasaray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_socceer_tile_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_holder_soccer_tile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Learning-0/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning-0/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/TurkeyTeam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_favorite_outline_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_link_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_soccer_tile_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileDetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileDetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SoccerTileInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_holder_soccer_tile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_holder_soccer_tile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\fatih\.android\avd\fatihk.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -61,8 +69,9 @@
       <list>
         <option value="Kotlin File" />
         <option value="layoutResourceFile" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -106,6 +115,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -156,6 +166,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -182,36 +193,63 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1626030485218">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1626103408936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626030485218" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1626018687893">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626103408936" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1626105154497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626018687893" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1626030204314">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626105154497" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1626106942327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1626019454177" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626030204314" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624959626588" />
-    <state x="546" y="478" key="AndroidCreateResourceFileDialog" timestamp="1626029904730">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626080486148" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626106942327" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1626083083477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="546" y="478" key="AndroidCreateResourceFileDialog/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626029904730" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083083477" />
+    <state x="546" y="478" key="AndroidCreateResourceFileDialog" timestamp="1626083108508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="546" y="478" key="AndroidCreateResourceFileDialog/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083108508" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624962545589" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624961295851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624961295851" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1626103700426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083590038" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626103700426" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1626103700426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083590038" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626103700426" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1626103700425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083590038" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626103700425" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1626103700426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083590038" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626103700426" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1624960682109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624960682109" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1624960256148">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1626082542122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626082542122" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624960256148" />
   </component>
 </project>
