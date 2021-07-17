@@ -12,10 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
-import com.fatihkurcenli.firstapp.BaseMainActivityFragment
-import com.fatihkurcenli.firstapp.MainActivity
-import com.fatihkurcenli.firstapp.R
-import com.fatihkurcenli.firstapp.SoccerTile
+import com.fatihkurcenli.firstapp.*
 import com.squareup.picasso.Picasso
 
 class DetailFragment : BaseMainActivityFragment(R.layout.fragment_detail) {
@@ -85,6 +82,7 @@ class DetailFragment : BaseMainActivityFragment(R.layout.fragment_detail) {
                 }
 
                 soccerTile.isFavorite = !isCurrentlyFavorited
+                SharedPrefUtil.setSoccerTileFavorite(soccerTile.id, soccerTile.isFavorite)
                 true
             }
 

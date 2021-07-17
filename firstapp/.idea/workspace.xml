@@ -33,25 +33,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8bde7cb-38d8-4c1e-a836-692a9acb31c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/BaseMainActivityFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SharedPrefUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/TSLApplication.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/fragments/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/fragments/DetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/fragments/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/fragments/ListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +58,7 @@
         <option value="Kotlin Interface" />
         <option value="resourceFile" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -238,11 +226,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="299" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626360997288" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1626517740162">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1626540962524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1626019454177" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626517740162" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1626540402315" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626540962524" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626360490236" />
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1626083083477">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -257,25 +245,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624961295851" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1626533807895">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1626535338707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626533807895" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338707" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613294" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1626533807895">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1626535338707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626533807895" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338707" />
     <state width="1877" height="239" key="GridCell.Tab.0.center/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613293" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1626533807895">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1626535338706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626533807895" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338706" />
     <state width="1877" height="239" key="GridCell.Tab.0.left/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613293" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1626533807895">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1626535338707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626533807895" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338707" />
     <state width="1877" height="239" key="GridCell.Tab.0.right/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613294" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1624960682109">
       <screen x="0" y="0" width="1920" height="1040" />

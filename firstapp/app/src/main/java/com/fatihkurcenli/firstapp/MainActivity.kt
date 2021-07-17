@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
 
         (supportFragmentManager.fragments[0] as ListFragment)?.onFavoriteClicked(position)
 
+        SharedPrefUtil.setSoccerTileFavorite(soccerTile.id, soccerTile.isFavorite)
+
 
         /**
          * [soccerTileAdapter.notifyDataSetChanged()]tum datalari degistirmekte ancak bizim istedigimiz
@@ -76,6 +78,7 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
                     headerImageResId = R.drawable.besiktas,
                     headerImageUrl = "https://i.pinimg.com/originals/c7/99/92/c79992662084735c2385fb3613d1456b.jpg",
                     teamUrl = "https://bjk.com.tr/tr",
+                    isFavorite = SharedPrefUtil.getSoccerTileFavorite("besiktas")
                 )
             )
             add(
@@ -92,7 +95,8 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
                     buttonText = "Learn More",
                     headerImageResId = R.drawable.fenerbahce,
                     headerImageUrl = "https://pbs.twimg.com/media/EVjdHCrWsAA9cly.jpg",
-                    teamUrl = "https://www.fenerbahce.org/"
+                    teamUrl = "https://www.fenerbahce.org/",
+                    isFavorite = SharedPrefUtil.getSoccerTileFavorite("fenerbahce")
                 )
             )
             add(
@@ -109,7 +113,8 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
                     buttonText = "Learn More",
                     headerImageResId = R.drawable.galatasaray,
                     headerImageUrl = "https://data.whicdn.com/images/294694932/original.png",
-                    teamUrl = "https://www.galatasaray.org/anasayfa"
+                    teamUrl = "https://www.galatasaray.org/anasayfa",
+                    isFavorite = SharedPrefUtil.getSoccerTileFavorite("galatasaray")
                 )
             )
         }
