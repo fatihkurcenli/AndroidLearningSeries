@@ -1,48 +1,56 @@
 package com.fatihkurcenli.firstapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.RecyclerView
+import androidx.fragment.app.commit
+import com.fatihkurcenli.firstapp.fragments.DetailFragment
+import com.fatihkurcenli.firstapp.fragments.ListFragment
 
 class MainActivity : AppCompatActivity(), SoccerTileInterface {
 
-    companion object {
-        lateinit var soccerTileList: ArrayList<SoccerTile>
-    }
-
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var soccerTileAdapter: SoccerTileAdapter
-
+    lateinit var soccerTileList: ArrayList<SoccerTile>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        supportActionBar?.title = "Türkiye Takımları"
-        soccerTileList = getSoccerTileList()
-        soccerTileAdapter = SoccerTileAdapter(soccerTileList, this)
-        recyclerView = findViewById(R.id.recyclerView)
-        recyclerView.adapter = soccerTileAdapter
-        soccerTileAdapter.notifyDataSetChanged()
+        soccerTileList = getList()
+        supportFragmentManager.commit {
+            setReorderingAllowed(true)
+            add(R.id.fragmentContainerView, ListFragment())
+        }
     }
 
     override fun onLearnMoreButtonClicked(position: Int) {
-        val soccerTile = soccerTileList[position]
+/*        val soccerTile = soccerTileList[position]
         val intent = Intent(this, SoccerTileDetailActivity::class.java).apply {
             putExtra("soccerTile", soccerTile.id)
         }
-        startActivity(intent)
+        startActivity(intent)*/
+        val soccerTile = soccerTileList[position]
+
+        supportFragmentManager.commit {
+            setReorderingAllowed(true)
+            addToBackStack(null)
+            val bundle = Bundle().apply {
+                putString("soccerTileId", soccerTile.id)
+            }
+            replace(R.id.fragmentContainerView, DetailFragment().apply {
+                arguments = bundle
+            })
+        }
     }
 
     override fun onResume() {
         super.onResume()
-        soccerTileAdapter.notifyDataSetChanged()
+
     }
 
     override fun onFavoriteClicked(position: Int) {
         val soccerTile = soccerTileList[position]
         soccerTile.isFavorite = !soccerTile.isFavorite
-        soccerTileAdapter.notifyItemChanged(position)
+
+        (supportFragmentManager.fragments[0] as ListFragment)?.onFavoriteClicked(position)
+
 
         /**
          * [soccerTileAdapter.notifyDataSetChanged()]tum datalari degistirmekte ancak bizim istedigimiz
@@ -51,7 +59,7 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
          */
     }
 
-    private fun getSoccerTileList(): ArrayList<SoccerTile> {
+    private fun getList(): ArrayList<SoccerTile> {
         return ArrayList<SoccerTile>().apply {
             add(
                 SoccerTile(
