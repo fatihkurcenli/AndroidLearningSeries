@@ -12,13 +12,15 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
+import com.fatihkurcenli.firstapp.BaseMainActivityFragment
 import com.fatihkurcenli.firstapp.MainActivity
 import com.fatihkurcenli.firstapp.R
 import com.fatihkurcenli.firstapp.SoccerTile
+import com.squareup.picasso.Picasso
 
-class DetailFragment : Fragment(R.layout.fragment_detail) {
+class DetailFragment : BaseMainActivityFragment(R.layout.fragment_detail) {
     private val soccerTile: SoccerTile by lazy {
-        (activity as MainActivity).soccerTileList.find {
+        mainActivity.soccerTileList.find {
             it.id == requireArguments().getString("soccerTileId")
         } ?: SoccerTile()
     }
@@ -27,20 +29,27 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Log.i("Tile", soccerTile.toString())
-        (activity as MainActivity).supportActionBar?.apply {
-            title = "Kulüp Tanıtımları"
+        mainActivity.supportActionBar?.apply {
             setDisplayHomeAsUpEnabled(true)
         }
+
+        setToolBarTitle("Kulüp Tanıtımları")
+
         setHasOptionsMenu(true)
         val headerImageView: ImageView = view.findViewById(R.id.teamHeaderImageView)
         val titleTextView: TextView = view.findViewById(R.id.titleTextView)
         val descriptionTextView: TextView = view.findViewById(R.id.descriptionTextView)
         val descriptionLongTextView: TextView = view.findViewById(R.id.descriptionLongTextView)
 
-        headerImageView.setImageResource(soccerTile.headerImageResId)
+//        headerImageView.setImageResource(soccerTile.headerImageResId)
         titleTextView.text = soccerTile.title
         descriptionTextView.text = soccerTile.description
         descriptionLongTextView.text = soccerTile.descriptionLong
+
+//        Picasso.get().isLoggingEnabled=true // this is for Log for debug
+        Picasso.get().load(soccerTile.headerImageUrl).into(headerImageView)
+
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -56,7 +65,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             android.R.id.home -> {
-                (activity as MainActivity).supportFragmentManager.popBackStack()
+                mainActivity.supportFragmentManager.popBackStack()
                 true
 
             }
