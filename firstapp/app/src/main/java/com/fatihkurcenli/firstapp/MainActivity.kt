@@ -34,6 +34,14 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
             val bundle = Bundle().apply {
                 putString("soccerTileId", soccerTile.id)
             }
+
+            setCustomAnimations(
+                R.anim.blink_animation,
+                R.anim.blink_animation,
+                android.R.anim.slide_in_left,
+                android.R.anim.slide_out_right,
+            )
+
             replace(R.id.fragmentContainerView, DetailFragment().apply {
                 arguments = bundle
             })

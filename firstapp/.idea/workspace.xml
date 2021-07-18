@@ -33,12 +33,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8bde7cb-38d8-4c1e-a836-692a9acb31c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/SharedPrefUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/TSLApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/blink_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fly_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/shake_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_right.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/fragments/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fatihkurcenli/firstapp/fragments/DetailFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +61,10 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
-        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -236,34 +241,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083083477" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1626257738410">
+    <state x="546" y="478" key="AndroidCreateResourceFileDialog" timestamp="1626607180985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="546" y="478" key="AndroidCreateResourceFileDialog/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626083108508" />
+    <state x="546" y="478" key="AndroidCreateResourceFileDialog/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626607180985" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626257738410" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624961295851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1624961295851" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1626535338707">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1626608690835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338707" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626608690835" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613294" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1626535338707">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1626608690835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338707" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626608690835" />
     <state width="1877" height="239" key="GridCell.Tab.0.center/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613293" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1626535338706">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1626608690834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338706" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626608690834" />
     <state width="1877" height="239" key="GridCell.Tab.0.left/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613293" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1626535338707">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1626608690835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626535338707" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626608690835" />
     <state width="1877" height="239" key="GridCell.Tab.0.right/3360.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1626366613294" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1624960682109">
       <screen x="0" y="0" width="1920" height="1040" />
