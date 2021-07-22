@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity(), SoccerTileInterface {
             }
 
             setCustomAnimations(
-                R.anim.blink_animation,
-                R.anim.blink_animation,
+                R.anim.fragment_slide_in_right,
+                R.anim.fragment_slide_down,
                 android.R.anim.slide_in_left,
                 android.R.anim.slide_out_right,
             )
