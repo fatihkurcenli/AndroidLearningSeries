@@ -1,12 +1,11 @@
-package com.fatihkurcenli.myholiday.ui.fragment
+package com.fatihkurcenli.myholiday.ui.fragment.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
-import com.fatihkurcenli.myholiday.R
 import com.fatihkurcenli.myholiday.databinding.FragmentHomeBinding
+import com.fatihkurcenli.myholiday.ui.fragment.BaseFragment
 
 class HomeFragment : BaseFragment() {
 
@@ -25,7 +24,13 @@ class HomeFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         super.onViewCreated(view, savedInstanceState)
-        val rv = binding.recyclerView
+        val homeAdapter = HomeFragmentAdapter {
+            //todo handle on clicked for navigate ->
+        }
+
+        binding.recyclerView.adapter = homeAdapter
+
+        homeAdapter.setData(attractions)
     }
 
     override fun onDestroy() {

@@ -3,6 +3,7 @@
     {
       "id": "687a58ab-1d73-4d4a-beae-68516b948fd7",
       "title": "Sali",
+      "image_url": "https://www.croatiaholidays.travel/storage/destinations/129311392_l-2_thumb_1150.jpg",
       "image_urls": [
         "https://www.croatiaholidays.travel/storage/destinations/129311392_l-2_thumb_1150.jpg",
         "https://cf.bstatic.com/images/hotel/max1024x768/151/151133086.jpg",
@@ -25,6 +26,7 @@
     {
       "id": "c95a98c4-ca5a-4cc6-a978-79099173de1c",
       "title": "Zagreb",
+      "image_url": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/croatia_zagreb_night-city.jpg",
       "image_urls": [
         "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/croatia_zagreb_night-city.jpg"
       ],
@@ -44,6 +46,7 @@
     {
       "id": "6d322e54-ce63-4c46-96e8-28e1935585ca",
       "title": "Zadar",
+      "image_url": "https://cdn.budgetyourtrip.com/images/photos/articles/croatia_zadar.jpg",
       "image_urls": [
         "https://cdn.budgetyourtrip.com/images/photos/articles/croatia_zadar.jpg"
       ],
@@ -62,6 +65,7 @@
     {
       "id": "0ec338ff-df52-4723-89ac-a987b2bc5267",
       "title": "Plitvice Lakes National Park",
+      "image_url": "https://i1.wp.com/www.gourmetroaming.com/wp-content/uploads/2017/10/plitvice-lakes-national-park.jpg",
       "image_urls": [
         "https://i1.wp.com/www.gourmetroaming.com/wp-content/uploads/2017/10/plitvice-lakes-national-park.jpg"
       ],
@@ -81,6 +85,7 @@
     {
       "id": "b9dadbc9-89e4-4b16-9589-78297fb225a7",
       "title": "Kornati National Park",
+      "image_url": "https://www.sibenik-tourism.hr/upload/lokacije/2018/06/2018-06-27/14/nationalparkkornatiexcursionsprivatetoursromeoandjuliettravelagency.jpg",
       "image_urls": [
         "https://www.sibenik-tourism.hr/upload/lokacije/2018/06/2018-06-27/14/nationalparkkornatiexcursionsprivatetoursromeoandjuliettravelagency.jpg"
       ],
@@ -100,6 +105,7 @@
     {
       "id": "a879072e-4f36-489c-911b-3cc0a8c27406",
       "title": "Dubrovnik",
+      "image_url": "https://i.dailymail.co.uk/1s/2019/08/31/13/17909778-0-image-a-8_1567255695004.jpg",
       "image_urls": [
         "https://i.dailymail.co.uk/1s/2019/08/31/13/17909778-0-image-a-8_1567255695004.jpg"
       ],
@@ -118,6 +124,7 @@
     {
       "id": "d416bff0-e92c-44c5-aae3-52109dd17fbc",
       "title": "Split",
+      "image_url": "https://cdn.tourcms.com/a/11676/730/1/default.jpg",
       "image_urls": [
         "https://cdn.tourcms.com/a/11676/730/1/default.jpg"
       ],

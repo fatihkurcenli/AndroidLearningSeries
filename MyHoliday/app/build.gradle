@@ -19,7 +19,7 @@ android {
     }
 
     buildFeatures {
-        viewBinding  true
+        viewBinding true
     }
 
     buildTypes {
@@ -53,6 +53,12 @@ dependencies {
     def nav_version = "2.3.5"
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
+    //picasso added
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    //square moshi
+    implementation 'com.squareup.moshi:moshi-kotlin:1.12.0'
 
 
 }

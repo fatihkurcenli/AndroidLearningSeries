@@ -5,6 +5,7 @@ data class Attraction(
     val facts: List<String> = listOf(),
     val id: String = "",
     val image_urls: List<String> = listOf(),
+    val image_url: String = "",
     val location: Location = Location(),
     val months_to_visit: String = "",
     val title: String = ""
