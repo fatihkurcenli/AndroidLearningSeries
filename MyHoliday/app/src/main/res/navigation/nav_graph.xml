@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.fatihkurcenli.myholiday.ui.fragment.home.HomeFragment"
-        android:label="HomeFragment"
+        android:label="My Holiday"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_attractionDetailFragment"
@@ -22,7 +22,7 @@
     <fragment
         android:id="@+id/attractionDetailFragment"
         android:name="com.fatihkurcenli.myholiday.ui.fragment.AttractionDetailFragment"
-        android:label="Attraction Details"
+        android:label="My Holiday Details"
         tools:layout="@layout/fragment_attraction_detail">
         <argument
             android:name="attractionId"
