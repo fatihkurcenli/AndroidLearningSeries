@@ -24,6 +24,8 @@
         android:name="com.fatihkurcenli.myholiday.ui.fragment.AttractionDetailFragment"
         android:label="My Holiday Details"
         tools:layout="@layout/fragment_attraction_detail">
+
+        <deepLink app:uri="https://senya.travel.com/attraction/{attractionId}" />
         <argument
             android:name="attractionId"
             app:argType="string" />
