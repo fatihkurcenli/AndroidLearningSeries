@@ -3,9 +3,9 @@ package com.fatihkurcenli.myholiday.ui.fragment.home
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.fatihkurcenli.myholiday.R
+import com.autumnsun.myholiday.R
+import com.autumnsun.myholiday.databinding.ViewHolderAttractionBinding
 import com.fatihkurcenli.myholiday.data.Attraction
-import com.fatihkurcenli.myholiday.databinding.ViewHolderAttractionBinding
 import com.squareup.picasso.Picasso
 
 class HomeFragmentAdapter(private val onClickedCallBack: (String) -> Unit) :

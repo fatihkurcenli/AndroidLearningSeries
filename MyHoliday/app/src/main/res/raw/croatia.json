@@ -2,15 +2,15 @@
   "attractions": [
     {
       "id": "687a58ab-1d73-4d4a-beae-68516b948fd7",
-      "title": "Sali",
-      "image_url": "https://www.croatiaholidays.travel/storage/destinations/129311392_l-2_thumb_1150.jpg",
+      "title": "Antalya",
+      "image_url": "https://kulturveyasam.com/wp-content/uploads/2018/05/antalya_sahil_ilcesi-09-min.jpg",
       "image_urls": [
         "https://www.croatiaholidays.travel/storage/destinations/129311392_l-2_thumb_1150.jpg",
         "https://cf.bstatic.com/images/hotel/max1024x768/151/151133086.jpg",
         "https://i.croatiaimages.com/places/323/dalmatia-dugi-otok-sali-croatia-1-720x480.jpg",
         "https://www.apartmanisostaric.com/images/slider1.jpg"
       ],
-      "description": "Sali is a village and a municipality in Croatia in the Zadar County. Sali is a small town but still the largest on the island of Dugi otok. The total population of Sali is 1,698 inhabitants.",
+      "description": "2.400 bin civarında Antalya Nüfusu ile Türkiye’nin dünyaca ünlü turizm şehridir. Başlı başına bir turizm cenneti Antalya; dünyanın en iyi otellerini içinde barındırmaktadır. Başta Alanya, Side, Belek, Kaş, Kalkan, Kemer, Manavgat ilçeleri ile birlikte Antalya dünyanın en çok talep edilen Tatil kentlerinin başında gelmektedir. Antalya Doğal güzellikleri,Tarihi mekanları ve Antalya gezilecek yerlerini birde muhteşem Antalya Otelleri ve Antalya Tatil köyleri ile birleştirince adeta Dünya genelinde Turizm başkentlerinden biri olmuştur. ",
       "location": {
         "latitude": "43.937887",
         "longitude": "15.163208"
@@ -25,12 +25,12 @@
     },
     {
       "id": "c95a98c4-ca5a-4cc6-a978-79099173de1c",
-      "title": "Zagreb",
-      "image_url": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/croatia_zagreb_night-city.jpg",
+      "title": "Muğla",
+      "image_url": "https://www.yaz-tatili.com/wp-content/uploads/bodrum-genel.jpg",
       "image_urls": [
         "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/croatia_zagreb_night-city.jpg"
       ],
-      "description": "Zagreb, Croatia’s northwestern capital, is distinguished by its 18th- and 19th-century Austro-Hungarian architecture. At its center, Upper Town is the site of the Gothic, twin-spired Zagreb Cathedral and 13th-century St. Mark’s Church, with a colorfully tiled roof. Nearby is pedestrian-friendly Tkalčićeva Street, lined with outdoor cafes. Lower Town has the main square, Ban Jelačić, plus shops, museums and parks.",
+      "description": "Tarihte birçok hükümdarın iştahını kabarttığı, ele geçirmek için can attığı Bodrum, şimdilerde birçok kişinin yaz deyince aklına gelen ilk yerlerden. Peki, Bodrum nasıl Bodrum olmuş bugünlere nasıl gelmiş bir bakalım.\n\nEski adı Halikarnas olan Bodrum Dor’lar tarafından kurulmuş. Onlardan sonra Karyalılar ve İyon halkına ev sahipliği yapmış. Halikarnas deniziyle doğasıyla bulunduğu konum itibariyle devletlerin, İmparatorların dikkatini çekmeye başlamış ve bu yüzden işgallerle karşılaşmış. Perslerden Büyük İskender’e, Mısır Kralı’ndan Romalılara, Bizans İmparatorluğu’ndan Osmanlı’ya kadar bütün medeniyetleri içinde barındırmış. En sonunda da Cumhuriyet döneminde Bodrum adını almış.\n\nSadece medeniyetlere değil önemli kişilere de ev sahipliği yapmış Bodrum; tarihin babası Herodot burada doğmuş. Ama Herodot siyasi düşünceleri yüzünden Lygdamis tarafından Halikarnas’tan sürülmüş ve Samos Adasına yerleşmiş. Bu sürgün onun kitap yazmasını sağlayacak seyahatlerin de başlangıcı olmuş. Mısır, Mezopotamya, Filistin, Rusya ve Afrika’ya giderek gördüğü yerleri ve insanları anlattığı ‘’Herodot Tarihi ‘’ni yazarak tarihin babası olma yolunda ilk adımını atmıştır.",
       "location": {
         "latitude": "45.8150",
         "longitude": "15.9819"

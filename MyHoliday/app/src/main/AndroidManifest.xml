@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fatihkurcenli.myholiday">
+    package="com.autumnsun.myholiday">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyHoliday">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.fatihkurcenli.myholiday.MainActivity">
             <nav-graph android:value="@navigation/nav_graph" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
