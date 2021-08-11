@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.recyclerview.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/recyclerView"
+    <com.airbnb.epoxy.EpoxyRecyclerView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/epoxyRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
         android:orientation="vertical"
         android:paddingBottom="24dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:itemCount="5" 
+        tools:itemCount="5"
         tools:listitem="@layout/view_holder_attraction" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

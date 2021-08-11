@@ -12,10 +12,10 @@ class AttractionsRepository {
     //networking call repository.
     private val moshi = Moshi.Builder().addLast(KotlinJsonAdapterFactory()).build()
 
-    fun parseAttractions(context: Context): List<Attraction> {
+    fun parseAttractions(context: Context): ArrayList<Attraction> {
         val textFormFile =
             context.resources.openRawResource(R.raw.croatia).bufferedReader().use { it.readText() }
         val adapter: JsonAdapter<AttractionResponse> = moshi.adapter(AttractionResponse::class.java)
-        return adapter.fromJson(textFormFile)!!.attractions
+        return adapter.fromJson(textFormFile)!!.attractions as ArrayList<Attraction>
     }
 }

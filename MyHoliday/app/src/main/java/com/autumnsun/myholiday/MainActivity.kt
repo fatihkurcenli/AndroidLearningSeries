@@ -1,5 +1,7 @@
 package com.fatihkurcenli.myholiday
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -28,6 +30,12 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         viewModel.init(this)
+        viewModel.locationSelectedLiveData.observe(this) { attraction ->
+            val gmnIntentUri =
+                Uri.parse("geo:${attraction.location.latitude},${attraction.location.longitude}?z=9&q=${attraction.title}")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmnIntentUri)
+            startActivity(mapIntent)
+        }
 
     }
 
