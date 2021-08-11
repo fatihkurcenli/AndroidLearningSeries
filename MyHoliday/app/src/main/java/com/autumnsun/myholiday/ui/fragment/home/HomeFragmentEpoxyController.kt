@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.EpoxyController
 import com.autumnsun.myholiday.R
+import com.autumnsun.myholiday.databinding.EpoxyModelHeaderBinding
 import com.autumnsun.myholiday.databinding.ViewHolderAttractionBinding
 import com.autumnsun.myholiday.ui.fragment.epoxy.LoadingEpoxyModel
 import com.autumnsun.myholiday.ui.fragment.epoxy.ViewBindingKotlinModel
@@ -22,6 +23,7 @@ class HomeFragmentEpoxyController(private val onClickedCallBack: (String) -> Uni
             }
         }
 
+
     var attractions = ArrayList<Attraction>()
         set(value) {
             field = value
@@ -38,8 +40,17 @@ class HomeFragmentEpoxyController(private val onClickedCallBack: (String) -> Uni
 
         if (attractions.isEmpty()) {
             //todo empty state
+            return
+        }
+        val firstGroup =
+            attractions.filter { it.title.startsWith("s", true) || it.title.startsWith("D", false) }
+
+        HeaderEpoxyModel("Recently Viewed").id("header_1").addTo(this)
+        firstGroup.forEach { attraction ->
+            AttractionEpoxyModel(attraction, onClickedCallBack).id(attraction.id).addTo(this)
         }
 
+        HeaderEpoxyModel("All attractions").id("header_1").addTo(this)
         attractions.forEach { attraction ->
             AttractionEpoxyModel(attraction, onClickedCallBack).id(attraction.id).addTo(this)
         }
@@ -58,6 +69,15 @@ class HomeFragmentEpoxyController(private val onClickedCallBack: (String) -> Uni
             root.setOnClickListener {
                 onClicked(attraction.id)
             }
+        }
+
+    }
+
+    data class HeaderEpoxyModel(
+        val headerText: String
+    ) : ViewBindingKotlinModel<EpoxyModelHeaderBinding>(R.layout.epoxy_model_header) {
+        override fun EpoxyModelHeaderBinding.bind() {
+            headerTextView.text = headerText
         }
 
     }

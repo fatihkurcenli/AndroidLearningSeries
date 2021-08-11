@@ -1,12 +1,12 @@
-package com.fatihkurcenli.myholiday.ui.fragment
+package com.autumnsun.myholiday.ui.fragment.details
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.*
 import androidx.appcompat.app.AlertDialog
+import androidx.recyclerview.widget.LinearSnapHelper
 import com.autumnsun.myholiday.R
 import com.autumnsun.myholiday.databinding.FragmentAttractionDetailBinding
+import com.fatihkurcenli.myholiday.ui.fragment.BaseFragment
 import com.squareup.picasso.Picasso
 import java.lang.StringBuilder
 
@@ -34,8 +34,15 @@ class AttractionDetailFragment : BaseFragment() {
         activityViewModel.selectedAttractionLiveData.observe(viewLifecycleOwner) { attraction ->
             binding.numberOfFactsTextView.text = "${attraction.facts.size} Facts"
             binding.descriptionTextView.text = attraction.description
+            binding.headerEpoxyRecyclerView.setControllerAndBuildModels(
+                HeaderEpoxyController((attraction.image_urls))
+            )
+            //imageview next to next like one by one
+            LinearSnapHelper().attachToRecyclerView(binding.headerEpoxyRecyclerView)
+
+            binding.indicator.attachToRecyclerView(binding.headerEpoxyRecyclerView)
+
             binding.monthsToVisitTextView.text = attraction.months_to_visit
-            Picasso.get().load(attraction.image_url).into(binding.headerImageView)
             binding.titleTextView.text = attraction.title
             binding.numberOfFactsTextView.setOnClickListener {
                 val stringBuilder = StringBuilder("")

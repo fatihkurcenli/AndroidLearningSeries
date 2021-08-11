@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/attractionDetailFragment"
-        android:name="com.fatihkurcenli.myholiday.ui.fragment.AttractionDetailFragment"
+        android:name="com.autumnsun.myholiday.ui.fragment.details.AttractionDetailFragment"
         android:label="My Holiday Details"
         tools:layout="@layout/fragment_attraction_detail">
 

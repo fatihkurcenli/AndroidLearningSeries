@@ -33,9 +33,9 @@ class HomeFragment : BaseFragment() {
         }
 
         binding.epoxyRecyclerView.setController(epoxyController)
-        binding.epoxyRecyclerView.addItemDecoration(
+   /*     binding.epoxyRecyclerView.addItemDecoration(
             DividerItemDecoration(requireActivity(), RecyclerView.VERTICAL)
-        )
+        )*/
 
         epoxyController.isLoading = true
         //Observing changes to the underlying list of data

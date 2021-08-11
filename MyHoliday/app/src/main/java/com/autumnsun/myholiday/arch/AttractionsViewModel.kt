@@ -14,7 +14,7 @@ class AttractionsViewModel : ViewModel() {
 
     fun init(context: Context) {
         viewModelScope.launch {
-            delay(5_000)
+            delay(1_000)
 
             val attractionList = repository.parseAttractions(context)
             attractionsListLiveData.postValue(attractionList)

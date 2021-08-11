@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/epoxy_model_header.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/epoxy_model_loading.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/fragment_attraction_detail.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/fragment_attraction_detail.xml" value="0.6699629171817059" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/fragment_home.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/model_header_image.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/view_holder_attraction.xml" value="0.24547101449275363" />
       </map>
     </option>
