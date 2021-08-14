@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/drawable/ic__round_view_list_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/drawable/ic_round_grid_24.xml" value="0.3828125" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/epoxy_model_header.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/epoxy_model_loading.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/fragment_attraction_detail.xml" value="0.6699629171817059" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/fragment_attraction_detail.xml" value="0.25" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/fragment_home.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/model_description.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/model_fact.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/model_facts_header.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/model_header_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/model_months_to_visit.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/fatih/Documents/AndroidLearningSeries/MyHoliday/app/src/main/res/layout/view_holder_attraction.xml" value="0.24547101449275363" />
       </map>
     </option>

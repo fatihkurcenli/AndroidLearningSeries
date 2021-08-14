@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginHorizontal="10dp"
+    app:strokeColor="@color/black"
+    android:elevation="5dp"
+    app:strokeWidth="2px">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/factTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="2.400 bin civarında Antalya Nüfusu ile Türkiye’nin dünyaca ünlü turizm şehridir. Başlı başına bir turizm cenneti Antalya" />
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -3,6 +3,8 @@ package com.autumnsun.myholiday.ui.fragment.details
 import android.os.Bundle
 import android.view.*
 import androidx.appcompat.app.AlertDialog
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import com.autumnsun.myholiday.R
 import com.autumnsun.myholiday.databinding.FragmentAttractionDetailBinding
@@ -32,19 +34,33 @@ class AttractionDetailFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         activityViewModel.selectedAttractionLiveData.observe(viewLifecycleOwner) { attraction ->
-            binding.numberOfFactsTextView.text = "${attraction.facts.size} Facts"
-            binding.descriptionTextView.text = attraction.description
             binding.headerEpoxyRecyclerView.setControllerAndBuildModels(
                 HeaderEpoxyController((attraction.image_urls))
             )
+            binding.firstTitleTextView.text = attraction.title
             //imageview next to next like one by one
             LinearSnapHelper().attachToRecyclerView(binding.headerEpoxyRecyclerView)
+//            binding.indicator.attachToRecyclerView(binding.headerEpoxyRecyclerView)
 
-            binding.indicator.attachToRecyclerView(binding.headerEpoxyRecyclerView)
 
-            binding.monthsToVisitTextView.text = attraction.months_to_visit
-            binding.titleTextView.text = attraction.title
-            binding.numberOfFactsTextView.setOnClickListener {
+            var isGridMode: Boolean =
+                binding.contentEpoxyRecyclerView.layoutManager is GridLayoutManager
+            val contentEpoxyController = ContentEpoxyController(attraction)
+            contentEpoxyController.isGridMode = isGridMode
+            contentEpoxyController.onChangeLayoutCallBack = {
+                if (isGridMode) {
+                    binding.contentEpoxyRecyclerView.layoutManager =
+                        LinearLayoutManager(requireContext())
+                } else {
+                    binding.contentEpoxyRecyclerView.layoutManager =
+                        GridLayoutManager(requireContext(), 2)
+                }
+                isGridMode = !isGridMode
+                contentEpoxyController.isGridMode = isGridMode
+                contentEpoxyController.requestModelBuild()
+            }
+            binding.contentEpoxyRecyclerView.setControllerAndBuildModels(contentEpoxyController)
+/*            binding.numberOfFactsTextView.setOnClickListener {
                 val stringBuilder = StringBuilder("")
                 attraction.facts.forEach {
                     stringBuilder.append("\u2022 $it")
@@ -60,7 +76,7 @@ class AttractionDetailFragment : BaseFragment() {
                     .setNegativeButton("No", { dialog, _ -> })
                     .setCancelable(false)//negative code
                     .show()
-            }
+            }*/
         }
     }
 

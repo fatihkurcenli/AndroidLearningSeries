@@ -42,13 +42,13 @@ class HomeFragmentEpoxyController(private val onClickedCallBack: (String) -> Uni
             //todo empty state
             return
         }
-        val firstGroup =
+ /*       val firstGroup =
             attractions.filter { it.title.startsWith("s", true) || it.title.startsWith("D", false) }
 
         HeaderEpoxyModel("Recently Viewed").id("header_1").addTo(this)
         firstGroup.forEach { attraction ->
             AttractionEpoxyModel(attraction, onClickedCallBack).id(attraction.id).addTo(this)
-        }
+        }*/
 
         HeaderEpoxyModel("All attractions").id("header_1").addTo(this)
         attractions.forEach { attraction ->

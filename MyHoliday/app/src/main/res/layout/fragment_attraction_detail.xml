@@ -18,18 +18,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator
         android:id="@+id/indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/titleTextView"
+        app:layout_constraintBottom_toTopOf="@+id/firstTitleTextView"
         app:layout_constraintEnd_toEndOf="@+id/headerEpoxyRecyclerView"
         app:layout_constraintStart_toStartOf="@+id/headerEpoxyRecyclerView" />
 
     <TextView
-        android:id="@+id/titleTextView"
+        android:id="@+id/firstTitleTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background_details_title"
@@ -41,38 +42,17 @@
         app:layout_constraintBottom_toBottomOf="@id/headerEpoxyRecyclerView"
         tools:text="Sali" />
 
-    <TextView
-        android:id="@+id/descriptionTextView"
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:id="@+id/contentEpoxyRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:textFontWeight="@integer/material_motion_duration_medium_1"
-        android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@id/headerEpoxyRecyclerView"
-        tools:text="@tools:sample/lorem/random" />
-
-    <TextView
-        android:id="@+id/monthsToVisitTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:drawablePadding="8dp"
-        android:text="All year"
-        android:textSize="16sp"
-        android:textStyle="italic"
-        app:drawableStartCompat="@drawable/ic_baseline_flight_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/numberOfFactsTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?selectableItemBackgroundBorderless"
-        android:padding="16dp"
-        android:textSize="16sp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="24dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="3 facts" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerEpoxyRecyclerView"
+        app:spanCount="2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
