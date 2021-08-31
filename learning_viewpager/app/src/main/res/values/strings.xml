@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">learning_viewpager</string>
+    <string name="first_blank_fragment">First fragment</string>
+    <string name="second_blank_fragment">Second fragment</string>
+    <string name="third_blank_fragment">Third fragment</string>
+</resources>
